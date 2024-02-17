@@ -34,7 +34,7 @@
    .text{
     
     width: 50%;
-    height: 100px;
+  
     text-align: left;
     font-size: 20px;
     color: #172442 !important;
@@ -51,13 +51,18 @@
     width: 100%;
     align-items: center;
     justify-content: center !important;
-    margin-top: -40px;
+    
     
    }
    
    .offer{
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center !important;
+   }
+
+   .proj{
     align-items: center;
     justify-content: center !important;
    }
@@ -91,7 +96,8 @@
    
    .footer{
     background-color: #172442 !important;
-    min-height: 800px;
+
+ 
    }
   
   .background{
