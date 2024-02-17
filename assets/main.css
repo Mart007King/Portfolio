@@ -1,0 +1,107 @@
+.navigation,.ban{
+    background-color: #172442 !important;
+    min-height: 100px;
+  }
+   a{
+    color: white !important;
+   }
+   
+   a:hover{
+    color: #D14081 !important;
+    text-decoration: underline;
+   }
+   
+   .head{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 4em;
+    color: #172442 !important;
+    
+   }
+   
+   .extra{
+    color: #DEBC36 !important;
+    
+   }
+
+   .spann{
+    color: #DEBC36 !important;
+   }
+
+   .span{
+    color: #172442 !important;
+   }
+   
+   .text{
+    
+    width: 50%;
+    height: 100px;
+    text-align: left;
+    font-size: 20px;
+    color: #172442 !important;
+      
+   }
+   
+   .top{
+    
+    text-align: center;
+   }
+   
+   .text2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center !important;
+    margin-top: -40px;
+    
+   }
+   
+   .offer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center !important;
+   }
+   
+   .juice{
+    background-color: #DEBC36 !important;
+   }
+   
+   .box1{
+    display: flex;
+    width: 100%;
+  
+    justify-content: flex-end !important;
+   }
+   
+   .box2{
+    display: flex;
+    width: 100%;
+  
+    justify-content: flex-start !important;
+    margin-top: -150px;
+   }
+   
+   .box3{
+    display: flex;
+    width: 100%;
+  
+    justify-content: flex-end !important;
+    margin-top: -150px;
+   }
+   
+   .footer{
+    background-color: #172442 !important;
+    min-height: 800px;
+   }
+  
+  .background{
+    background-image: url('./bio_images/banner.png');
+    height: 337px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .drop a{
+    color: blue !important;
+  }
