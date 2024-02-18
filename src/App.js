@@ -10,6 +10,7 @@ import ig from './icon/instagram.png';
 import x from './icon/x.png';
 import git from './icon/github.png';
 import zwork from './bio_images/zwork.jpg';
+import last from './bio_images/last.jpeg';
 import { Reveal } from './component/Reveal';
 
 import './App.css';
@@ -147,7 +148,7 @@ function App() {
 
                 <p className="text card card-body m-3">
               
-                  <span className="text-center text-lg"> <b>Hello there! I'm Martins. A PHP DEVELOPER.</b></span>  <p> Welcome to my world. A place where 
+                  <span className="text-center text-lg" > <b><span style={{ fontSize: "2em" }}>I'm Martins Samuel,</span>  A PHP DEVELOPER.</b></span>  <p> Welcome to my world. A place where 
                   businesses and humans align with my solutions which allows
                 their vision fly. A place where all tech related issues has a solution.</p>
                 </p>
@@ -308,15 +309,15 @@ function App() {
 
                           </div>
 
-                          <div className="d-flex p-2 mt-2 gap-2">
+                          <div className="d-flex p-2 mt-2 gap-2 mx-2">
 
-                            <a href="https://github.com/Mart007King" target="_blank" className="btn btn-sm btn-secondary">
+                            <a href="https://github.com/Mart007King/zwork.git" target="_blank" className="btn btn-sm btn-secondary">
                               
                               <img src={git} width="10%" /> &nbsp;
                               View on GitHub
                             </a>
 
-                            <a href="https://github.com/Mart007King" target="_blank" className="btn btn-sm btn-primary">
+                            <a href="https://www.linkedin.com/posts/martins-samuel-a07495187_freelancemarketplace-empoweringfreelancers-activity-7162480089442500608-luXz?utm_source=share&utm_medium=member_desktop" target="_blank" className="btn btn-sm btn-primary">
                               <img src={linked} width="10%" /> &nbsp;
                               View on LinkedIn
                             </a>
@@ -364,43 +365,28 @@ function App() {
               <div className="card text-center">
                 <div className="card-header"></div>
                 <div className="card-body">
+
                   <h5 className="card-title mb-3">FIND ME EVERYWHERE</h5>
+                    <div >
 
-                  <p className="card-text">
-                    <a href="https://github.com/Mart007King" target="_blank" className="btn btn-primary">
-                      <img src={git} width="10%" />
-                    </a>
-                  </p>
-                  <br />
-
-                  <p className="card-text">
-                    <a href="https://www.linkedin.com/in/martins-samuel-a07495187/" target="_blank" className="btn btn-primary">
-                      <img src={linked} width="10%" className="img-fluid" />
-                    </a>
-                  </p>
-                  <br />
-
-
-                  <p className="card-text">
-                    <a href="https://twitter.com/King_mhartins" target="_blank" className="btn btn-primary">
-                      <img src={x} width="10%" />
-                    </a>
-                  </p>
-                  <br />
-
-                  <p className="card-text">
-                    <a href="https://www.facebook.com/martins.samuel.52" target="_blank" className="btn btn-primary">
-                      <img src={fb} width="10%" />
-                    </a>
-                  </p>
-                  <br />
-                  
-                  <p className="card-text">
-                    <a href="https://www.instagram.com/ma_rtins_/?hl=en" target="_blank" className="btn btn-primary">
-                      <img src={ig} width="10%" />
-                    </a>
-                  </p>
-                  <br />
+                      <a href="https://github.com/Mart007King" target="_blank" className="p-3">
+                        <img src={git} width="3%"  />
+                      </a>
+                      <a href="https://www.linkedin.com/in/martins-samuel-a07495187/" target="_blank" className="p-3">
+                        <img src={linked} width="3%"  />
+                      </a>
+                      <a href="https://twitter.com/King_mhartins" target="_blank" className="p-3">
+                        <img src={x} width="3%" />
+                      </a>
+                      <a href="https://www.facebook.com/martins.samuel.52" target="_blank" className="p-3">
+                        <img src={fb} width="3%" />
+                      </a>
+                      <a href="https://www.instagram.com/ma_rtins_/?hl=en" target="_blank" className="p-3">
+                        <img src={ig} width="3%" />
+                      </a>
+                      
+                    </div>
+                    <img src={last} className="img-fluid" /> 
                   
                 </div>
               </div>
