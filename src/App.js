@@ -11,6 +11,7 @@ import x from './icon/x.png';
 import git from './icon/github.png';
 import zwork from './bio_images/zwork.jpg';
 import last from './bio_images/last.jpeg';
+import Progress_bar from './component/Progress_bar';
 import { Reveal } from './component/Reveal';
 
 import './App.css';
@@ -20,6 +21,7 @@ function App() {
   return (
    
     <>
+   
     <div className="container-fluid navigation">
       <div className="row">
         <div className="col-md">
@@ -130,7 +132,7 @@ function App() {
       </div>
     </div>
     <div className="container">
-      <div className="row">
+      {/* <div className="row">
         <div className="col-md top">
           <Reveal>
             <h1 className="head p-4">
@@ -139,7 +141,7 @@ function App() {
             </h1>
           </Reveal>
         </div>
-      </div>
+      </div> */}
 
       <Reveal>
         <div className="row">
@@ -148,9 +150,7 @@ function App() {
 
                 <p className="text card card-body m-3">
               
-                  <span className="text-center text-lg" > <b><span style={{ fontSize: "2em" }}>I'm Martins Samuel,</span>  A PHP DEVELOPER.</b></span>  <p> Welcome to my world. A place where 
-                  businesses and humans align with my solutions which allows
-                their vision fly. A place where all tech related issues has a solution.</p>
+                  <span className="text-center text-lg" > <b><span style={{ fontSize: "2em" }}>I'm Martins Samuel,</span>  A PHP DEVELOPER.</b></span>  <p> I am passionate and dedicated to crafting dynamic and robust web solutions. With a keen eye for detail and a commitment to excellence, I thrive in the ever-evolving realm of web development. My journey in PHP development has been a continuous exploration of the language's capabilities, from building scalable backend systems to creating intuitive user interfaces. I believe in the power of code to not only solve problems but also to inspire and innovate. Whether it's implementing complex algorithms or architecting seamless user experiences, I approach each project with a blend of precision and creativity, striving to exceed expectations and deliver results that truly make a difference.</p>
                 </p>
             </div>
 
@@ -166,7 +166,7 @@ function App() {
                 style={{ width: "6rem", textAlign: "center" }}
               >
                 <i className="fa-solid fa-martini-glass-citrus" />
-                <span style={{ fontSize: 17 }}>What My Juice Offers</span>
+                <span style={{ fontSize: 17 }}>Services</span>
               </div>
             
           </div>
@@ -245,6 +245,99 @@ function App() {
           
         </div>
       </Reveal>
+
+      <Reveal>
+      <div className="container mt-4 p-3 bg-secondary">
+      <div className="row m-5">
+          <div className="col-md offer">
+            
+              <div
+                className="badge juice text-wrap"
+                style={{ width: "6rem", textAlign: "center" }}
+              >
+                <i className="fa-solid fa-hand" />
+                <span style={{ fontSize: 17 }}>Skills</span>
+              </div>
+            
+          </div>
+        </div>
+  <div className="section-title">
+    
+    <p className='text-light'> 
+    "Skills honed with precision and creativity" signifies my dynamic blend of technical proficiency and imaginative problem-solving. Every skill listed has been meticulously crafted through a combination of deliberate practice, attention to detail, and a flair for innovation. Each line of code, design element, or strategic decision reflects not just proficiency, but a touch of creativity that sets them apart. This fusion of precision and creativity isn't just about achieving goals; it's about surpassing them, pushing boundaries, and leaving a distinct mark in the digital landscape. It's this unique approach that allows for solutions that are not only functional but also captivating, resonating with audiences and making a lasting impression.
+    </p>
+  </div>
+  <div className='card card-body'>
+  <div className="row skills-content">
+    <div className="col-lg-6">
+      <div className="">
+        
+        <Progress_bar
+          bgcolor="orange"
+          progress="100"
+          height={30}
+          word="HTML"
+        />
+        
+      </div>
+      <div className="">
+        
+        <Progress_bar
+          bgcolor="orange"
+          progress="100"
+          height={30}
+          word="CSS,btsp/tailwind"
+        />
+        
+      </div>
+      <div className="">
+        
+        <Progress_bar
+          bgcolor="orange"
+          progress="100"
+          height={30}
+          word="Javascript/Ajax"
+        />
+        
+      </div>
+    </div>
+    <div className="col-lg-6">
+      <div className="">
+        
+        <Progress_bar
+          bgcolor="green"
+          progress="100"
+          height={30}
+          word="PHP & OOP"
+        />
+        
+      </div>
+      <div className="">
+        
+        <Progress_bar
+          bgcolor="green"
+          progress="100"
+          height={30}
+          word="React.Js"
+        />
+        
+      </div>
+      <div className="">
+        
+        <Progress_bar
+          bgcolor="green"
+          progress="70"
+          height={30}
+          word="Vue/Node.js"
+        />
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+      </Reveal>
+
 
       <Reveal>
         <div className="row m-5">
@@ -337,18 +430,54 @@ function App() {
         </div>
       </div>
     </div>
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-md-12 background"></div>
+    
+    <Reveal>
+    <div className="container-fluid mb-5">
+      <div className="row d-flex justify-content-center ">
+        <div className="container" >
+              <div className='card card-body'>
+                <div className="section-title">
+                  <h2>Contact</h2>
+                  <p>
+                  Get in touch with me using any of the methods below. I'm always open to new opportunities, collaborations, and discussions about all things PHP development. Feel free to drop me a message, and I'll get back to you as soon as possible. Let's connect and bring your ideas to life!
+                  </p>
+                </div>
+                <div className="row mt-2">
+                  <div className="col">
+                    <div className="info flex-column justify-content-center">
+                      <div className="address m-2">
+
+                        <i className="fas fa-location-dot" />
+                        
+                        <p>Ikeja, Lagos Nigeria</p>
+                      </div>
+                      <div className="email m-2">
+                        <i className="fas fa-envelope-circle-check" />
+                        
+                        <p className='mailing'> <a  href='mailto:martinssam17@gmail.com'> martinssam17@gmail.com </a> </p>
+                      </div>
+                      <div className="phone m-2">
+                        <i className="fas fa-phone" />
+                        
+                        <p className='phony'> <a href="tel:+2347057194041"> +234 705 7194 041 </a> </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
       </div>
     </div>
+    </Reveal>
+
     <div className="container-fluid footer">
       <div className="row">
         <div className="col-md my-5 d-flex justify-content-center">
 
             <div className="dropdown">
               <button className="btn btn-secondary dropdown-toggle btn-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About Me
+                Resume
               </button>
               <ul className="dropdown-menu text-body-info drop">
                 <a href={cv} target="_blank">
