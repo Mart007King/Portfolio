@@ -1,9 +1,13 @@
 import logo from './bio_images/logo.png';
 import me from './bio_images/me.jpg';
-import brand from './bio_images/brand.png';
-import code from './bio_images/code.jpg';
-import soft from './bio_images/soft.jpg';
-import cv from './sites/CV.pdf';
+import brand from './bio_images/php.png';
+import frame from './bio_images/frame.png';
+import soft from './bio_images/sql.png';
+import code from './bio_images/lib.png';
+import gith from './bio_images/git.png';
+import sec from './bio_images/sec.jpg';
+import brain from './bio_images/brain.jpg';
+import cv from './sites/Resume.pdf';
 import fb from './icon/facebook.png';
 import linked from './icon/linked.png';
 import ig from './icon/instagram.png';
@@ -166,7 +170,7 @@ function App() {
                 style={{ width: "6rem", textAlign: "center" }}
               >
                 <i className="fa-solid fa-martini-glass-citrus" />
-                <span style={{ fontSize: 17 }}>Services</span>
+                <span style={{ fontSize: 17 }}> <b> Proficiency </b> </span>
               </div>
             
           </div>
@@ -174,6 +178,7 @@ function App() {
       </Reveal>
     </div>
     <div className="container-fluid">
+
       <Reveal>
         <div className="row">
           
@@ -186,9 +191,9 @@ function App() {
                     alt="pic for branding"
                   />
                   <div className="card-body">
-                    <p className="card-text text-info">
-                      I specialize in making a brand for a company which includes
-                      creation of a unique logo, brand font and official color.
+                    <h4> <u className='text-info'> PHP Proficiency </u> </h4>
+                    <p className="card-text text-dark">
+                      As a PHP developer, I possess comprehensive expertise in the PHP programming language, allowing me to craft robust and scalable web applications efficiently. With a deep understanding of PHP syntax, features, and best practices, I am adept at leveraging its power to deliver high-quality solutions tailored to client needs.
                     </p>
                   </div>
                 </div>
@@ -205,14 +210,14 @@ function App() {
               <div className="card" style={{ width: "30rem" }}>
                 <div className="shadow p-3 mb-5 bg-body-tertiary rounded">
                   <img
-                    src={code}
+                    src={frame}
                     className="card-img-top img-fluid"
                     alt="pic for web dev"
                   />
                   <div className="card-body">
-                    <p className="card-text text-info">
-                      And then I proceed to gathering necessary requirements for your web app and design the website layout that
-                      complements the brand name, logo and color.
+                    <h4> <u className='text-info'> Frameworks Mastery </u> </h4>
+                    <p className="card-text text-dark">
+                      I excel in utilizing advanced PHP frameworks such as Laravel and codeIgniter to streamline development processes and enhance application performance. By harnessing the capabilities of these frameworks, I can expedite project delivery while ensuring code maintainability, extensibility, and adherence to industry standards.
                     </p>
                   </div>
                 </div>
@@ -234,9 +239,9 @@ function App() {
                     alt="pic for software dev"
                   />
                   <div className="card-body">
-                    <p className="card-text text-info">
-                      Website applications that involves both the back-end and
-                      front-end of the development will all be taken care by me.
+                    <h4> <u className='text-info'> Database Expertise </u> </h4>
+                    <p className="card-text text-dark">
+                      With expertise in database management systems like MySQL and MongoDB, I proficiently design, implement, and optimize database schemas to support complex data requirements. My skills in SQL query optimization and database administration enable me to ensure data integrity, scalability, and performance in PHP-driven applications.
                     </p>
                   </div>
                 </div>
@@ -245,6 +250,103 @@ function App() {
           
         </div>
       </Reveal>
+
+      <Reveal>
+        <div className="row mt-3">
+          
+            <div className="col-md-12 box2">
+              <div className="card" style={{ width: "30rem" }}>
+                <div className="shadow p-3 mb-5 bg-body-tertiary rounded">
+                  <img
+                    src={code}
+                    className="card-img-top img-fluid"
+                    alt="pic for web dev"
+                  />
+                  <div className="card-body">
+                    <h4> <u className='text-info'> Frontend Integration </u> </h4>
+                    <p className="card-text text-dark">
+                      I specialize in seamlessly integrating frontend technologies such as HTML, CSS, AJAX and JavaScript with PHP backend systems to deliver dynamic and responsive web experiences. By leveraging frontend frameworks and libraries, I create intuitive user interfaces that enhance user engagement and satisfaction while maintaining code modularity and reusability.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </Reveal>
+
+      <Reveal>
+        <div className="row mt-3">
+          
+            <div className="col-md-12 box3 ">
+              <div className="card" style={{ width: "30rem" }}>
+                <div className="shadow p-3 mb-5 bg-body-tertiary rounded">
+                  <img
+                    src={gith}
+                    className="card-img-top img-fluid"
+                    alt="pic for software dev"
+                  />
+                  <div className="card-body">
+                    <h4> <u className='text-info'> Version Control Skills </u> </h4>
+                    <p className="card-text text-dark">
+                      My proficiency in version control systems, particularly Git, enables me to manage code repositories efficiently, facilitate collaboration among team members, and track changes across projects seamlessly. With expertise in branching, merging, and resolving conflicts, I ensure codebase integrity and project continuity throughout the development lifecycle.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </Reveal>
+
+      <Reveal>
+        <div className="row mt-3">
+          
+            <div className="col-md-12 box2">
+              <div className="card" style={{ width: "30rem" }}>
+                <div className="shadow p-3 mb-5 bg-body-tertiary rounded">
+                  <img
+                    src={sec}
+                    className="card-img-top img-fluid"
+                    alt="pic for web dev"
+                  />
+                  <div className="card-body">
+                    <h4> <u className='text-info'> Security Practices </u> </h4>
+                    <p className="card-text text-dark">
+                      I prioritize security in PHP development by implementing robust coding practices and adopting industry-standard security measures to safeguard applications against potential threats and vulnerabilities. From data validation and input sanitization to encryption and access control, I employ a proactive approach to mitigate security risks and uphold user trust.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </Reveal>
+
+      <Reveal>
+        <div className="row mt-3">
+          
+            <div className="col-md-12 box3 ">
+              <div className="card" style={{ width: "30rem" }}>
+                <div className="shadow p-3 mb-5 bg-body-tertiary rounded">
+                  <img
+                    src={brain}
+                    className="card-img-top img-fluid"
+                    alt="pic for software dev"
+                  />
+                  <div className="card-body">
+                    <h4> <u className='text-info'> Continuous Learning </u> </h4>
+                    <p className="card-text text-dark">
+                      Committed to continuous learning and professional growth, I stay abreast of emerging technologies, industry trends, and best practices in PHP development. By actively participating in online communities, attending workshops, and exploring new tools and frameworks, I continually enhance my skills and expertise to deliver innovative and future-proof solutions for clients.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </Reveal>
+
 
       <Reveal>
       <div className="container mt-4 p-3 bg-secondary">
@@ -268,7 +370,7 @@ function App() {
     </p>
   </div>
   <div className='card card-body'>
-  <div className="row skills-content">
+  <div className="row skills-content ">
     <div className="col-lg-6">
       <div className="">
         
@@ -376,7 +478,7 @@ function App() {
 
                           <div className="card flex-column p-2 mt-2">
 
-                            <p className="text-dark"> <b>About Project:</b> This is a freelance marketplace whee freelancers can advertise their skills and get paid jobs by clients who want them to complete any particular job.</p>
+                            <p className="text-dark"> <b>About Project:</b> This is a freelance marketplace where users(freelancers) can advertise their skills and get paid jobs by clients who want them to complete any particular job.</p>
 
                             <p className="text-dark">
                               <b> Technology used: </b> 
@@ -432,43 +534,77 @@ function App() {
     </div>
     
     <Reveal>
-    <div className="container-fluid mb-5">
-      <div className="row d-flex justify-content-center ">
-        <div className="container" >
-              <div className='card card-body'>
-                <div className="section-title">
-                  <h2>Contact</h2>
-                  <p>
-                  Get in touch with me using any of the methods below. I'm always open to new opportunities, collaborations, and discussions about all things PHP development. Feel free to drop me a message, and I'll get back to you as soon as possible. Let's connect and bring your ideas to life!
-                  </p>
-                </div>
-                <div className="row mt-2">
-                  <div className="col">
-                    <div className="info flex-column justify-content-center">
+      <div className="container-fluid mb-5">
+            <div className="row d-flex justify-content-center m-2">
+          
+                <div className='col-md-12 col-sm-12'>
+
+                  <div className="card section-title ">
+
+                    <div className='card-body col-sm-12'>
+                    <h2>Contact</h2>
+                    <p>
+                    Get in touch with me using any of the methods below. I'm always open to new opportunities, collaborations, and discussions about all things PHP development. Feel free to drop me a message, and I'll get back to you as soon as possible. Let's connect and bring your ideas to life!
+                    </p>
+
+                    <div className=" d-md-flex justify-content-center">
                       <div className="address m-2">
 
-                        <i className="fas fa-location-dot" />
-                        
-                        <p>Ikeja, Lagos Nigeria</p>
+                        <button
+                          className="btn btn-sm btn-secondary"
+                          type="button"
+                        >
+                          <span className="badge rounded text-bg-warning">
+                            <i className="fas fa-location-dot" />
+                          </span>
+                          &nbsp;
+                          Ikeja, Lagos Nigeria{' '}
+                          
+                        </button>
+
                       </div>
-                      <div className="email m-2">
-                        <i className="fas fa-envelope-circle-check" />
+
+                      <div className="email m-2 ">
+                        <button
+                          className="btn btn-sm btn-secondary"
+                          type="button"
+                        >
+                          <span className="badge rounded text-bg-primary">
+                          <i className="fas fa-envelope-circle-check" />
+                          </span>
+                          &nbsp;
+                          <span className=''> <a className='text-decoration-primary text-light'  href='mailto:martinssam17@gmail.com'> Reach me via email </a> </span>
+                          
+                        </button>
                         
-                        <p className='mailing'> <a  href='mailto:martinssam17@gmail.com'> martinssam17@gmail.com </a> </p>
                       </div>
+
                       <div className="phone m-2">
-                        <i className="fas fa-phone" />
-                        
-                        <p className='phony'> <a href="tel:+2347057194041"> +234 705 7194 041 </a> </p>
+
+                        <button
+                          className="btn btn-sm btn-secondary"
+                          type="button"
+                        >
+                          <span className="badge rounded text-bg-success">
+                            <i className="fas fa-phone" />
+                          </span>
+                          &nbsp;
+                          <span className=''> <a className='text-decoration-primary text-light' href="tel:+2347057194041"> Reach me via tel. </a>  </span>
+                          
+                        </button>
+
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-        </div>
+                    </div>
 
+                  </div>
+
+                </div>
+
+
+            </div>
+          
       </div>
-    </div>
     </Reveal>
 
     <div className="container-fluid footer">
